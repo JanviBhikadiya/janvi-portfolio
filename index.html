@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Janvi Bhikadiya</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Janvi Bhikadiya</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+       </div>
+    </nav>
+
+    <section id="me" class="full-page1">
+        <div class="hero-image">
+           <img src="images/janvi_bhikadiya.jpeg" alt="Janvi Bhikadiya">
+        </div>
+        <h4>Hello I'm</h4>
+        <h1>Janvi Bhikadiya</h1>
+        <h2>Data Science Aspirant</h2>
+        <div class="button-group">
+            <a href="docs/JanviBhikadiya_CV (1).pdf" target="_blank" class="button resume-button">Download CV</a>
+            <a class="button contact-button" onclick="location.href='#contact'">Contact Info</a>
+        </div>
+        <div class="social-container">
+            <a href="https://www.linkedin.com/in/janvibhikadiya" target="_blank">
+                <img src="images/square-linkedin-brands-solid-full.svg" alt="LinkedIn" class="social-icon">
+            </a>
+            <a href="https://github.com/JanviBhikadiya" target="_blank">
+                <img src="images/github-brands-solid-full.svg" alt="GitHub" class="social-icon">
+            </a>
+            <a href="https://www.kaggle.com/janvibhikadiya" target="_blank">
+                <img src="images/kaggle-brands-solid-full.svg" alt="kaggle" class="social-icon">
+            </a>
+        </div>
+    </section>
+
+    <div class="spacer"></div>
+
+    <section id="about" class="full-page">
+        <p>Get To Know More</p>
+        <h1>About Me</h1>
+        
+        <div class="about-detail-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="images/experience.png" alt="Experience" class="icon1">
+                    <h3>Experience</h3>
+                    <p>Data Science Aspirant (ongoing)</p>
+                </div>
+                <div class="details-container">
+                    <img src="images/vector_people_img.jpg" alt="Education" class="icon2">
+                    <h3>Education</h3>
+                    <p>Bachelor-B.Tech(CE) Master-M.Sc(Data Science)</br>ongoing</p>
+                </div>
+            </div>
+        </div> 
+        
+        <div class="education-detail">
+            <p>"My journey in technology started with a <strong>Bachelor of Technology in Computer Engineering</strong>, where I spent four years building a strong foundation in software development and algorithmic logic. This background gave me the tools to understand how systems are built from the ground up. To take my skills further, I am now pursuing <strong>Master of Science in Data Science</strong>, focusing on how to turn complex information into meaningful insights. I have become highly proficient in <strong>Python</strong> and <strong>SQL</strong>, using them to build data pipelines, manage databases, and perform <strong>Exploratory Data Analysis (EDA)</strong>.</br></br>My main focus is on developing <strong>Machine Learning models</strong> and <strong>Predictive Analytics</strong> to solve actual problems. I am currently working on expanding my knowledge in <strong>Deep Learning, Artificial Intelligence,</strong> and <strong>Big Data technologies</strong> to handle larger, more complex datasets. I enjoy every part of the data process, from the initial cleaning and preprocessing to the final visualization. I'm fluent in German and English and my goal is to use this combination of engineering and data science to build intelligent, scalable solutions that provide real value."</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="experience-detail">
+            <p>Explore my</p>
+            <h1>Experience</h1>
+            <div class="about-experience-container">
+                <div class="about-containers-2">
+                    <div class="experience-container">
+                        <h2 class="skills-container">Data Science</h2>
+                        <div class="article-container">
+
+                            <article>
+                                <i class="fa-solid fa-circle-check icon"></i>
+                                <div class="skill-text">
+                                    <h3>Python</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+
+                            <article>
+                                <i class="fa-solid fa-circle-check icon"></i>
+                                <div class="skill-text">
+                                    <h3>SQL</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+
+                            <article>
+                                <i class="fa-solid fa-circle-check icon"></i>
+                                <div class="skill-text">
+                                    <h3>ML</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+
+                            <article>
+                                <i class="fa-solid fa-circle-check icon"></i>
+                                <div class="skill-text">
+                                    <h3>AI</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+
+                            <article>
+                                <i class="fa-solid fa-circle-check icon"></i>
+                                <div class="skill-text">
+                                    <h3>Juypter Notebooks</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+
+                            <article>
+                                <i class="fa-solid fa-circle-check icon"></i>
+                                <div class="skill-text">
+                                    <h3>Anaconda</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+
+                            <article>
+                                <i class="fa-solid fa-circle-check icon"></i>
+                                <div class="skill-text">
+                                    <h3>Statistics</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="experience-container">
+                        <h2 class="skills-container">Others</h2>
+                        <div class="article-container">
+
+                            <article>
+                                <i class="fa-solid fa-circle-check icon"></i>
+                                <div class="skill-text">
+                                    <h3>React.js</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+
+                            <article>
+                                <i class="fa-solid fa-circle-check icon"></i>
+                                <div class="skill-text">
+                                    <h3>JavaScript</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+
+                            <article>
+                                <i class="fa-solid fa-circle-check icon"></i>
+                                <div class="skill-text">
+                                    <h3>HTML & CSS</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+
+                            <article>
+                                <i class="fa-solid fa-circle-check icon"></i>
+                                <div class="skill-text">
+                                    <h3>DBMS</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+
+                            <article>
+                                <i class="fa-solid fa-circle-check icon"></i>
+                                <div class="skill-text">
+                                    <h3>C(programming)</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="full-page">
+        <p>Available For Opportunities</p>
+        <h1>Contact Me</h1>
+        <div class="contact-container">
+            <div class="mail-container">
+                <i class="fa-solid fa-envelope icon"></i>
+                <p><a href="mailto:janvibhikadiya011@gmail.com" class="contact-box-link">janvibhikadiya011@gmail.com</a></p>
+            </div>
+            <div class="linkedin-container">
+                <i class="fa-brands fa-linkedin icon"></i>
+                <p><a href="https://www.linkedin.com/in/janvibhikadiya" class="contact-box-link" target="_blank">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+<footer>
+        <p>Copyright &#169; 2026 Janvi Bhikadiya. All rights reserved.</p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
